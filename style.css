@@ -8,3 +8,7 @@ header{
     padding-bottom: 10px;
     background-color: cadetblue;
 }
+/* dark and light mode (they don't do anything)*/
+.mode{
+    height: 30px;
+}
