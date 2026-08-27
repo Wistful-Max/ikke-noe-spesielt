@@ -24,3 +24,14 @@ remove2.addEventListener('click',function(){
     amount2 = amount2 - 1;
     document.getElementById("counter2").textContent= amount2
 })
+
+/*dark&light*/
+let mode = false
+const sun = document.getElementById("lightBt")
+sun.addEventListener('click',function(){
+    mode = true
+    document.getElementsByName("main").classList.remove("dark")
+    document.getElementsByName("main").classList.add("light")
+    
+})
+/*^^^ ITS NOT WORKING ^^^*/
