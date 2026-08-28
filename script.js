@@ -1,6 +1,6 @@
 let amount = 0
-const add = document.getElementById("plus")
-add.addEventListener('click',function(){
+const more = document.getElementById("plus")
+more.addEventListener('click',function(){
     amount = amount + 1;
     document.getElementById("counter").textContent= amount
 })
@@ -30,8 +30,16 @@ let mode = false
 const sun = document.getElementById("lightBt")
 sun.addEventListener('click',function(){
     mode = true
-    document.getElementsByName("main").classList.remove("dark")
-    document.getElementsByName("main").classList.add("light")
-    
+    document.getElementById("hgfd").classList.add("light")
+    document.getElementById("hgfd").classList.remove("dark")
+    alert("bra!")  
+})
+
+const moon = document.getElementById("darkBt")
+moon.addEventListener('click',function(){
+    mode = false
+    document.getElementById("hgfd").classList.add("dark")
+    document.getElementById("hgfd").classList.remove("light")
+    alert("bra!")  
 })
 /*^^^ ITS NOT WORKING ^^^*/

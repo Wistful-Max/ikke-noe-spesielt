@@ -17,5 +17,8 @@ main{
     height: 910px;
 }
 .light{
-    background-color: aliceblue;
+    background-color:bisque;
+}
+.dark{
+    background-color: black;
 }
