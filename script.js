@@ -30,18 +30,22 @@ let mode = false
 const sun = document.getElementById("lightBt")
 sun.addEventListener('click',function(){
     mode = true
+    document.getElementById("paragraph-button").classList.add("light")
     document.getElementById("text").classList.add("light")
     document.getElementById("hgfd").classList.add("light")
     document.getElementById("hgfd").classList.remove("dark") 
     document.getElementById("text").classList.remove("dark")
+    document.getElementById("paragraph-button").classList.remove("dark")
 })
 
 const moon = document.getElementById("darkBt")
 moon.addEventListener('click',function(){
     mode = false
+    document.getElementById("paragraph-button").classList.add("dark")
     document.getElementById("text").classList.add("dark")
     document.getElementById("hgfd").classList.add("dark")
     document.getElementById("hgfd").classList.remove("light") 
-    document.getElementById("text").classList.remove("light") 
+    document.getElementById("text").classList.remove("light")
+    document.getElementById("paragraph-button").classList.remove("light") 
 })
 /*^^^ ITS NOT WORKING ^^^*/

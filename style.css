@@ -19,18 +19,28 @@ main{
 .light{
     background-color:bisque;
     color: black;
+    border-color: black;
 }
 .dark{
     background-color: black;
     color: aliceblue;
+    border-color: aliceblue;
 }
 
 @font-face {
   font-family: galactic; /* set name */
   src: url(fonts/galactic-simple.otf.woff2); /* url of the font */
 }
+#paragraph-button{
+    font-family: 'Courier New', Courier, monospace;
+    border-style: solid;
+    border-width: 2px;
+    padding: 2px;
+    width: fit-content;
 
+}
 p {
   font-family: galactic; /* use font */
   color: aliceblue;
+  margin-left: 5px;
 }
