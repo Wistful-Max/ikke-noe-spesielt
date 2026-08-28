@@ -18,7 +18,19 @@ main{
 }
 .light{
     background-color:bisque;
+    color: black;
 }
 .dark{
     background-color: black;
+    color: aliceblue;
+}
+
+@font-face {
+  font-family: galactic; /* set name */
+  src: url(fonts/galactic-simple.otf.woff2); /* url of the font */
+}
+
+p {
+  font-family: galactic; /* use font */
+  color: aliceblue;
 }
